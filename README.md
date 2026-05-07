@@ -88,16 +88,6 @@
 ### 🛠️ Option 2: Run from Source
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/hussaini021/MH-System-Toolbox.git
-cd MH-System-Toolbox
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the application (as Administrator)
-python AnalyizPC_FINAL.py
-```
 
 <br/>
 
