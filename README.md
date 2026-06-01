@@ -212,44 +212,6 @@ Version 1.3 is the biggest leap in the project so far. It turns MH System Toolbo
 
 ```bash
 
-<br/>
-
----
-
-## 📋 System Requirements
-
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **OS** | Windows 10 | Windows 11 |
-| **RAM** | 2 GB | 4 GB+ |
-| **Storage** | 100 MB | 200 MB+ |
-| **Python** | 3.10 | 3.12+ |
-| **Privileges** | Administrator | Administrator |
-
-<br/>
-
----
-
-## 📦 Dependencies
-
-```
-psutil          — System & process monitoring
-matplotlib      — Real-time performance graphs
-Pillow          — Image & splash screen rendering
-send2trash      — Safe file deletion
-pywin32         — Windows API integration
-speedtest-cli   — Internet speed testing
-```
-
-Install all at once:
-
-```bash
-pip install psutil matplotlib Pillow send2trash pywin32 speedtest-cli
-```
-
-<br/>
-
----
 
 <br/>
 
@@ -298,23 +260,6 @@ pip install psutil pillow matplotlib speedtest-cli send2trash pywin32 google-gen
 ```
 
 ---
-
-## 🧱 Project Structure
-
-```text
-MH-System-Toolbox/
-├── MH_System_Suite_v1.3.py
-├── README.md
-├── logo.png
-├── logo.ico
-├── installer.nsi
-├── requirements.txt
-└── screenshots/
-    ├── dashboard.png
-    ├── cleaner.png
-    ├── antivirus.png
-    └── drivers.png
-```
 
 ---
 
