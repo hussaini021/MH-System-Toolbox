@@ -34,10 +34,10 @@
 ![Optimize](screenshots/optimization.png).
 
 **Cleaner**  
-![Cleaner](screenshots/cleaner.png)
+![Cleaner](screenshots/cleaner1.png)
 
 **Antivirus / Security**  
-![Antivirus](screenshots/antivirus.png)
+![Antivirus](screenshots/antivirus1.png)
 
 **Drivers / Optimization**  
 ![Drivers](screenshots/drivers.png)
