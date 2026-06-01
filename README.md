@@ -1,234 +1,207 @@
+<div align="center">
+
+<img src="logo.png" alt="MH System Toolbox Logo" width="140" height="140" />
+
 # MH System Toolbox
 
-**Professional Windows System Analysis, Optimization & Security Suite**
+### v2.1 Pro · Professional Windows System Analysis & Optimization
 
-> A polished all-in-one toolbox for monitoring, cleaning, optimizing, and protecting Windows PCs from a single interface.
+[![Release](https://img.shields.io/badge/Release-v2.1_Pro-00D4FF?style=for-the-badge&logo=github)](https://github.com/hussaini021/MH-System-Toolbox/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-0078D4?style=for-the-badge&logo=windows)](https://github.com/hussaini021/MH-System-Toolbox/releases)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-28a745?style=for-the-badge)](LICENSE)
+[![University](https://img.shields.io/badge/Kabul_University-ISE_Dept-051E3E?style=for-the-badge)](https://github.com/hussaini021)
 
----
+<br/>
 
-## Why this project stands out
+> **A powerful, all-in-one Windows system toolbox** built for real-world performance —
+> clean, optimize, secure, and monitor your PC from one professional interface.
 
-MH System Toolbox brings multiple daily PC maintenance tasks into one desktop app:
+<br/>
 
-- Live system dashboard with CPU, RAM, disk, and network activity
-- Fast cleanup tools for temp, cache, browser, and prefetch data
-- Heuristic antivirus-style scanning with process, registry, and network checks
-- Driver discovery and manufacturer support links
-- Startup manager, large-file finder, system reports, and optimization tools
-- Optional AI assistant powered by Google Gemini
-- Windows installer builds for **32-bit and 64-bit** systems
-
-This project is designed for users who want a cleaner workflow than jumping between many separate utilities.
+**[⬇️ Download Installer](https://github.com/hussaini021/MH-System-Toolbox/releases/latest)** · **[✨ Features](#-features)** · **[🚀 Getting Started](#-getting-started)**
 
 ---
 
-## Features
+</div>
 
-### Dashboard
-- Real-time CPU, RAM, disk, and network monitoring
-- Live charts and a task-manager-style overview
-- Uptime, process count, and system stats at a glance
+<br/>
 
-### Cleaner
-- Temp file scanning and cleanup
-- Cache cleanup support for common browsers
-- Prefetch cleanup
-- Safe deletion via Recycle Bin fallback when available
+## ✨ Features
 
-### Antivirus Engine v2
-- Hash-based detection
-- Heuristic file analysis
-- PE/packer detection
-- Entropy checks for suspicious binaries
-- Suspicious script pattern scanning
-- Registry autorun review
-- Suspicious process detection
-- Suspicious network connection checks
-- Quarantine and export report support
+<table>
+<tr>
+<td width="50%">
 
-> Note: this is a defensive scanner and triage tool, not a replacement for a full commercial endpoint security product.
+### 🔍 System Analysis
+- **📊 Live Dashboard** — Real-time CPU, RAM & Disk
+- **⚙️ Process Manager** — Full process control
+- **📋 Detailed Reports** — Export system summaries
 
-### Speed Test
-- Live network speed monitor
-- Ookla Speedtest integration when the dependency is installed
-- Upload/download testing with a clean UI
+</td>
+<td width="50%">
 
-### Processes
-- Process viewing and control
-- CPU/RAM-focused monitoring
-- Useful for troubleshooting heavy applications
+### 🧹 Cleanup & Optimization
+- **🧹 Smart Cleaner** — Remove junk, temp & cache files
+- **📁 Large File Scanner** — Free up valuable disk space
+- **⚡ Speed Optimizer** — Boost startup & performance
 
-### Hardware
-- CPU, RAM, disk, network, battery, and system details
-- Helpful for diagnostics and support
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### Optimization & Gaming Mode
-- Power plan switching
-- RAM clearing
-- DNS cache flush
-- Visual effects reduction
-- Temp cleanup
-- Xbox Game Bar / DVR disable option
-- Gaming mode profile with performance-oriented tweaks
+### 🛡️ Security
+- **🛡️ Antivirus Check** — Windows Defender integration
+- **🔐 File Encryption** — Protect sensitive data
+- **🗑️ Secure Delete** — Permanently wipe files
 
-### Drivers
-- Driver inventory scan
-- PC brand detection
-- Direct links to manufacturer support pages
-- Outdated / unsigned driver highlighting
-- CSV export
+</td>
+<td width="50%">
 
-### Startup Manager
-- Startup items from registry Run keys and Startup folder
-- Enable / disable / remove entries
-- Faster startup troubleshooting
+### 🌐 Network & More
+- **⚡ Speed Test** — Internet performance check
+- **📡 Network Monitor** — Live IP & interface info
+- **🔒 Admin Tools** — Elevated security controls
 
-### Large File Finder
-- Scan a chosen folder for space-heavy files
-- Sort by size
-- Delete or export results
+</td>
+</tr>
+</table>
 
-### Reports
-- Generate system reports
-- Export to JSON, CSV, TXT, and HTML
-
-### AI Assistant
-- Optional Google Gemini integration
-- Securely stored key using DPAPI when available
-- Chat-style helper for system questions
+<br/>
 
 ---
 
-## Screenshots
+## 🚀 Getting Started
 
-Add your best app screenshots here:
-- Dashboard
-- Cleaner
-- Antivirus
-- Drivers
-- Optimization
-- Reports
+### ✅ Option 1: Install (Recommended)
 
-Strong screenshots will make the repository look much more mature and trustworthy.
+> One-click installer. No setup hassle. Just install and run.
 
----
+1. Go to [**Releases**](https://github.com/hussaini021/MH-System-Toolbox/releases/latest)
+2. Download **`MH_System_Toolbox_Setup.exe`**
+3. Run the installer and follow the steps
+4. Launch from your **Desktop shortcut** ✅
 
-## Requirements
+<br/>
 
-- Windows 10 or Windows 11
-- Python 3.10+ for source execution
-- Administrator privileges recommended for full functionality
-- Internet connection for optional features such as AI and speed testing
-
-### Python dependencies
+### 🛠️ Option 2: Run from Source
 
 ```bash
-pip install psutil matplotlib pillow send2trash pywin32 speedtest-cli google-generativeai pystray
-```
 
-Some features are optional and will still work without their extra dependencies.
+<br/>
 
 ---
 
-## Installation
+## 📋 System Requirements
 
-### Option 1: Install from the Windows installer
-Download the installer from the GitHub Releases page and run the appropriate build for your system:
+| Requirement | Minimum | Recommended |
+|-------------|---------|-------------|
+| **OS** | Windows 10 | Windows 11 |
+| **RAM** | 2 GB | 4 GB+ |
+| **Storage** | 100 MB | 200 MB+ |
+| **Python** | 3.10 | 3.12+ |
+| **Privileges** | Administrator | Administrator |
 
-- **x86 / 32-bit**
-- **x64 / 64-bit**
+<br/>
 
-Then launch the app from the Start Menu or desktop shortcut.
+---
 
-### Option 2: Run from source
+## 📦 Dependencies
+
+```
+psutil          — System & process monitoring
+matplotlib      — Real-time performance graphs
+Pillow          — Image & splash screen rendering
+send2trash      — Safe file deletion
+pywin32         — Windows API integration
+speedtest-cli   — Internet speed testing
+```
+
+Install all at once:
 
 ```bash
-git clone https://github.com/hussaini021/MH-System-Toolbox.git
-cd MH-System-Toolbox
-pip install -r requirements.txt
-python MH_System_Suite_v1.3.py
+pip install psutil matplotlib Pillow send2trash pywin32 speedtest-cli
 ```
 
----
-
-## Usage
-
-1. Run the application.
-2. Open the page you need from the sidebar.
-3. Use the action buttons to scan, clean, optimize, or export reports.
-4. For advanced actions, run the app as Administrator.
+<br/>
 
 ---
 
-## Project structure
+## 🏗️ Project Structure
 
-```text
+```
 MH-System-Toolbox/
-├── MH_System_Suite_v1.3.py   # Main application source
-├── logo.png                  # App logo
-├── logo.ico                  # App icon
-├── installer.nsi             # Installer script
-├── requirements.txt          # Python dependencies
-└── README.md
+│
+├── AnalyizPC_FINAL.py         # Main application source
+├── logo.png                   # Application logo
+├── logo.ico                   # Application icon
+├── installer.nsi              # NSIS installer script
+├── requirements.txt           # Python dependencies
+└── README.md                  # You are here!
 ```
 
----
-
-## Technical notes
-
-- Windows-only desktop application built with Tkinter
-- Uses `psutil` for live system data
-- Uses `matplotlib` for charts when available
-- Uses `send2trash` where possible for safer deletion
-- Uses DPAPI encryption for sensitive config values on Windows
-- Some actions require elevation because they change system settings, registry values, or power plans
+<br/>
 
 ---
 
-## Release notes
+## 📌 Release Notes · v2.1 Pro
 
-### Current build
-- Modern dark UI
-- Live performance dashboard
-- Cleaner, driver manager, startup manager, large-file scanner
-- Heuristic antivirus engine
-- Optimization and gaming mode tools
-- Optional Gemini AI assistant
-- Installer support for both 32-bit and 64-bit Windows
+```
+✅ Professional splash screen with 7-second logo display
+✅ Complete color palette redesign (Deep Blue + Cyan accent)
+✅ Optimized & bug-fixed core engine
+✅ One-file Windows installer (NSIS)
+✅ Admin privilege management
+✅ Expiry protection system
+✅ Live system dashboard
+✅ Real-time graph monitoring
+✅ Secure file operations
+```
 
----
-
-## Limitations
-
-- This tool is focused on Windows and is not cross-platform.
-- The antivirus module is a custom heuristic scanner, not a full enterprise AV suite.
-- Some optimizations can only work correctly with Administrator privileges.
-- Deleting or quarantining files always carries risk; review results before confirming actions.
+<br/>
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions, fixes, and ideas are welcome.
+Contributions, ideas, and bug reports are welcome!
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a **Pull Request**
 
-Please keep changes focused and tested on Windows.
-
----
-
-## License
-
-This project is released under the MIT License.
+<br/>
 
 ---
 
-## Author
+## 📜 License
 
-**Murtaza Hussaini**  
-Computer Science Student · Kabul University · Information Systems Engineering
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-If you like the project, a star on GitHub helps a lot.
+<br/>
+
+---
+
+<div align="center">
+
+## 👨‍💻 About the Developer
+
+**Murtaza Hussaini**
+
+*Computer Science Student · Year 3*
+*Kabul University — Information Systems Engineering*
+
+[![GitHub](https://img.shields.io/badge/GitHub-hussaini021-181717?style=for-the-badge&logo=github)](https://github.com/hussaini021)
+
+<br/>
+
+---
+
+*If you found this project useful, please consider giving it a* ⭐ *— it means a lot!*
+
+**Built with 💙 by Murtaza Hussaini · Kabul University**
+
+</div>
