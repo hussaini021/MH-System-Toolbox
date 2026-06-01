@@ -30,6 +30,9 @@
 **Dashboard**  
 ![Dashboard](screenshots/dashboard.png)
 
+**Optimization**
+![Optimize](screenshots/optimization.png).
+
 **Cleaner**  
 ![Cleaner](screenshots/cleaner.png)
 
