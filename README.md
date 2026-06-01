@@ -195,21 +195,78 @@ Version 1.3 is the biggest leap in the project so far. It turns MH System Toolbo
 
 ---
 
-## 🛠 Getting Started
+## 🚀 Getting Started
 
-### Option 1: Install (Recommended)
-1. Open the latest release page
-2. Download the Windows installer
-3. Run the setup
-4. Launch from the Start Menu or Desktop shortcut
+### ✅ Option 1: Install (Recommended)
 
-### Option 2: Run from Source
+> One-click installer. No setup hassle. Just install and run.
+
+1. Go to [**Releases**](https://github.com/hussaini021/MH-System-Toolbox/releases/latest)
+2. Download **`MH_System_Toolbox_Setup.exe`**
+3. Run the installer and follow the steps
+4. Launch from your **Desktop shortcut** ✅
+
+<br/>
+
+### 🛠️ Option 2: Run from Source
+
 ```bash
-git clone https://github.com/hussaini021/MH-System-Toolbox.git
-cd MH-System-Toolbox
-pip install -r requirements.txt
-python MH_System_Suite_v1.3.py
+
+<br/>
+
+---
+
+## 📋 System Requirements
+
+| Requirement | Minimum | Recommended |
+|-------------|---------|-------------|
+| **OS** | Windows 10 | Windows 11 |
+| **RAM** | 2 GB | 4 GB+ |
+| **Storage** | 100 MB | 200 MB+ |
+| **Python** | 3.10 | 3.12+ |
+| **Privileges** | Administrator | Administrator |
+
+<br/>
+
+---
+
+## 📦 Dependencies
+
 ```
+psutil          — System & process monitoring
+matplotlib      — Real-time performance graphs
+Pillow          — Image & splash screen rendering
+send2trash      — Safe file deletion
+pywin32         — Windows API integration
+speedtest-cli   — Internet speed testing
+```
+
+Install all at once:
+
+```bash
+pip install psutil matplotlib Pillow send2trash pywin32 speedtest-cli
+```
+
+<br/>
+
+---
+
+<br/>
+
+---
+
+## 🤝 Contributing
+
+Contributions, ideas, and bug reports are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a **Pull Request**
+
+<br/>
+
 
 ---
 
